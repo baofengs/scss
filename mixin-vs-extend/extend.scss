@@ -1,0 +1,12 @@
+%foo {
+    color: red;
+    font-weight: bold;
+    line-height: 2;
+}
+
+@for $i from 1 through 1000 {
+    .#{unique-id()}-#{$i} {
+        @extend %foo;
+        content: "ibf#{&}jaslbw";
+    }
+}

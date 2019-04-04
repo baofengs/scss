@@ -1,0 +1,7 @@
+mixin-vs-extend/*.map
+mixin-vs-extend/*.gz
+mixin-vs-extend/*.css
+mixin-vs-extend/.sass-cache
+*.swo
+*.swp
+.DS_Store
