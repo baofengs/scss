@@ -70,7 +70,7 @@ sudo echo '127.0.0.1   mixin-vs-extend.local' >> /etc/hosts
 nginx -s reload
 ```
 
-访问：http://mixin-vs-extend.local，控制台查看相关效果
+访问：[http://mixin-vs-extend.local](http://mixin-vs-extend.local)，控制台查看相关效果
 
 **实验结果**
 
