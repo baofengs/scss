@@ -56,17 +56,21 @@ sh vs.sh
 
 **Nginx 压缩**
 
+配置
+
 ```bash
 // 加载 nginx 配置
 cd /path/to/nginx/conf.d
 ln -s /path/to/scss/mixin-vs-extend/nginx.conf .
 
-// 重启 Nginx 服务
-nginx -s reload
-
 // 配置 hosts
 sudo echo '127.0.0.1   mixin-vs-extend.local' >> /etc/hosts
+
+// 重启 Nginx 服务
+nginx -s reload
 ```
+
+访问：`http://mixin-vs-extend.local`，控制台查看相关效果
 
 **实验结果**
 
